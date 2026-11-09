@@ -110,7 +110,29 @@ Game.text = {
       mission2: "Plant your country's flag",
       hintStones: "Walk to the glowing purple stones and click them to collect.",
       hintFlag: "Walk to the red mark on the ground.",
-      flagMessage: "You've reached the flag planting location!"
+      flagMessage: "You've reached the flag planting location!",
+      // ----- mission 3: explore the Moon with the lunar rover -----
+      mission3: "Explore the Moon with the lunar rover",
+      roverIntroTitle: "Next Mission",
+      roverIntro: "Your next task is to explore the Moon using the lunar rover. Find your rover and begin your journey.",
+      roverIntroButton: "Find my rover",
+      hintRover: "Follow the arrow and walk to the glowing rover.",
+      roverFound: "Rover Found! Press E to Enter.",
+      enterButton: "ENTER (E)",
+      hintCrater: "Drive the rover to the glowing marker beside the giant crater.",
+      craterMessage: "Giant crater reached! Press E to scan.",
+      craterScanned: "Crater successfully scanned!",
+      hintRocks: "Rocks block the way! Drive around them to the next marker.",
+      rocksMessage: "Rocky mountains reached! Press E to scan the rocks.",
+      rocksScanned: "Rock samples detected!",
+      hintResearch: "Drive to the final marker and stop inside the circle.",
+      researchMessage: "You stopped inside the research point. Press E to scan.",
+      researchScanned: "Moon exploration data collected!",
+      allPointsDone: "All exploration points completed!",
+      hintStation: "Drive the rover back to the research station.",
+      stationMessage: "Research station reached! Press E to leave the rover.",
+      scanButton: "SCAN (E)",
+      exitButton: "EXIT (E)"
     },
     mars: {
       title: "Mars Explorer",
@@ -122,6 +144,22 @@ Game.text = {
       lakeText: "You have found a crater which was a water lake billions of years ago.",
       hintParts: "Find the battery and the spare part near the spacecraft.",
       hintRepair: "Return to the spacecraft.",
+      // ----- mission 3: find shelter from the dust storm -----
+      mission3: "Find shelter from the dust storm",
+      hintShelter: "Find the Shelter!",
+      shelterMessage: "You reached the shelter!",
+      enterShelter: "Enter Shelter (E)",
+      stormWarnings: [
+        { at: 1,  label: "Storm approaching",      message: "Control Centre: A dust storm is coming. Find shelter!" },
+        { at: 13, label: "Storm getting closer",   message: "Control Centre: The storm is getting closer!" },
+        { at: 26, label: "Visibility decreasing",  message: "Control Centre: Visibility is dropping. Keep going!" },
+        { at: 40, label: "Find shelter immediately!", message: "Control Centre: Find shelter immediately!" }
+      ],
+      safeText: "SAFE!",
+      doneTitle: "Mission Completed!",
+      doneText: "Well done! You found shelter before the dust storm intensified.",
+      dustFact: "Did you know? Mars has enormous dust storms that can spread across large parts of the planet. Some even become global, reducing visibility and affecting exploration. (This shelter is a game feature, inspired by real storms.)",
+      continueButton: "Continue",
       repairMessage: "Parts ready! Repair the spacecraft.",
       activate: "ACTIVATE"
     },
