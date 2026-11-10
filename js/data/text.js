@@ -44,7 +44,7 @@ Game.text = {
       ["p", "Our aim is to make learning science more interactive and enjoyable by combining education, exploration, and gaming."],
       ["strong", "Explore. Discover. Learn. Go Beyond The Earth."],
       ["h3", "Created by"],
-      ["p", "A team of three Class 9 students and one teacher."],
+      ["p", "A team of three 9th class students and one teacher of GGHS Tando Qaiser, Hyderabad Sindh."],
       ["p", "Hadia as a developer<br>Aasiya as a graphic designer<br>Bushra as a researcher<br>Teacher: Miss Filza Nizamani"],
       ["h3", "Technologies"],
       ["p", "HTML, CSS and JavaScript."]
